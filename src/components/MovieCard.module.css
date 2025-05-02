@@ -1,0 +1,50 @@
+.movieCard {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  .movieCard:hover {
+    transform: translateY(-5px);
+  }
+  .movieCard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .movieCard h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+  }
+  .movieCard p {
+    color: #666;
+    margin: 5px 0;
+  }
+  .movieCard button {
+    padding: 8px 12px;
+    margin: 5px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .movieCard button:hover {
+    background: #0056b3;
+  }
+  .favoriteBtn {
+    background: #28a745;
+  }
+  .favoriteBtn:hover {
+    background: #218838;
+  }
+  .removeFavoriteBtn {
+    background: #dc3545;
+  }
+  .removeFavoriteBtn:hover {
+    background: #c82333;
+  }
